@@ -1,0 +1,53 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: rgb(52, 206, 142);
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+.table article {
+  padding: 10px;
+  margin: 10px;
+  background: #10e9d72d;
+}
+
+.row123 {
+  display: flex;
+}
+.row4andmore {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.column456 {
+  display: flex;
+  flex-direction: column-reverse;
+  flex: 1;
+}
+.column78910 {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.row78 {
+  display: flex;
+  flex: 1;
+}
+.row910 {
+  display: flex;
+  flex: 1;
+}
